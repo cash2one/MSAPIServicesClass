@@ -30,9 +30,9 @@ following code snippet?
 ```http = httplib2.Http()
 # httplib2.Http
 response, body = http.request(url, "GET")
-# Response, Strig
+# Response, String
 content = json.loads(body)
-# Object
+# Dictionary
 
 :two: How would you access Grace Hopper’s postal code? (Write your response as
 a Python code snippet.)
